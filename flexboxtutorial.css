@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+.flexcontainer {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.flexcontainer article {
+    flex: 2;
+    padding: 10px;
+}
+
+.flexcontainer aside {
+    background-color: grey;
+    flex: 1;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: hotpink;
+    padding: 20px 0px;
+}
+
+@media(max-width:768px) {
+    .flexcontainer {
+        flex-wrap: wrap;
+    }
+    .flexcontainer article {
+        flex: none;
+        width: 100%;
+    }
+    .flexcontainer aside {
+        display: block;
+        flex: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

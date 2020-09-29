@@ -1,0 +1,80 @@
+            body {
+                background-color: whitesmoke;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-weight: bold;
+                font-size: larger;
+                line-height: 1.5em;
+            }
+            
+            .container {
+                margin: auto;
+                padding: auto;
+                overflow: hidden;
+                width: 80%;
+                margin-top: 120px;
+                padding: 5px 20px;
+                font-size: medium;
+            }
+            
+            body img {
+                width: 50px;
+            }
+            
+            .body {
+                margin: auto;
+                padding: auto;
+                overflow: hidden;
+                width: 80%;
+                padding: 5px 20px;
+            }
+            
+            .body button {
+                padding: 5px 40px;
+                display: inline-block;
+                color: white;
+                background-color: blue;
+                border-radius: 3px;
+            }
+            
+            .button2 {
+                padding: 5px 10px;
+                margin-top: -10px;
+            }
+            
+            .button2 button {
+                color: blue;
+                padding: 5px 10px;
+                border: 0.5px black solid;
+                border-radius: 3px;
+            }
+            
+            footer {
+                margin: auto;
+                margin-top: 50px;
+                color: lightgray;
+                background-color: whitesmoke;
+            }
+            /* media query */
+            
+            @media (max-width:768px) {
+                body {}
+                body img {
+                    margin-top: 30px;
+                }
+                .container small {
+                    font-weight: bolder;
+                    font-size: large;
+                }
+                .container {
+                    margin: auto;
+                    margin-top: 50px;
+                    font-weight: bolder;
+                }
+                .body {
+                    padding: 10px;
+                    line-height: 1.5em;
+                    font-size: x-large;
+                }
+                .button2 {}
+            }

@@ -1,0 +1,113 @@
+body {
+    background-color: whitesmoke;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration-line: none;
+    color: bluewhitesmoke
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.h5 {
+    margin-top: 0px;
+    margin-left: 60px;
+    color: blue;
+    background-color: whitesmoke;
+}
+
+.header {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+.header input {
+    width: 80%;
+}
+
+.button {
+    background-color: blue;
+    border: 0px black solid;
+    text-align: center;
+    color: white;
+    width: 80%;
+    padding-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.forgot {
+    padding-left: 255px;
+    text-decoration-line: none;
+    color: blue;
+}
+
+.login {
+    margin-left: 0px;
+}
+
+.register {
+    margin-left: 50px;
+    padding-left: 5px;
+    border: 0.5px black solid;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.registernow {
+    background-color: orange;
+    font-weight: bold;
+    padding: 5px 30px;
+    width: 100%;
+    border-radius: 5px;
+    color: navy;
+    margin-right: 15px;
+}
+
+.registerwithbetking {
+    margin-left: 60px;
+}
+
+.hdr {
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hdr2 {
+    background-color: lightgrey;
+}
+
+.cs {
+    color: black;
+    background-color: lightgrey;
+    border: none;
+    color: navy;
+    text-align: center;
+}
+
+.footer {
+    background-color: navy;
+    padding: 10px;
+    word-spacing: 10px;
+    width: 80%;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.bookabet {
+    background-color: navy;
+    border: none;
+    color: lightgray;
+}

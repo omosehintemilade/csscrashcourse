@@ -1,0 +1,185 @@
+    body {
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+        line-height: 1.5em;
+        background-color: lightgrey;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        color: violet;
+    }
+    
+    .p1 {
+        background-color: lime;
+        margin: 0px;
+        border: 5px black solid;
+        padding: 5px;
+    }
+    
+    .container {
+        width: 80%;
+        text-transform: lowercase;
+    }
+    
+    .clr {
+        clear: both;
+    }
+    
+    .p1 h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: blueviolet underline;
+        letter-spacing: 1.5px;
+        word-spacing: 2em;
+    }
+    
+    .p2 {
+        border: black dotted;
+        margin: 20px 0px;
+        padding: 10px 5px;
+        background-color: orange;
+    }
+    
+    .p2 h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: blueviolet underline;
+        letter-spacing: 1.5px;
+        word-spacing: 2em;
+        line-height: 1.5em;
+    }
+    
+    .p3 {
+        border: black dashed;
+        margin: 20px 0px;
+        padding: 10px 5px;
+        background-color: blue;
+        border-radius: 20px;
+    }
+    
+    .p3 h1 {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: blueviolet underline;
+        letter-spacing: 1.5px;
+        word-spacing: default;
+        line-height: 1.5em;
+    }
+    
+    .categories {
+        border: black solid;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    .categories h2 {
+        text-align: center;
+    }
+    
+    .categories ul {
+        padding: 0px;
+        padding-left: 20px;
+        list-style: none;
+    }
+    
+    .categories li {
+        padding-bottom: 5px;
+        border-bottom: solid;
+        list-style-image: url(./download.png);
+    }
+    
+    .myforms label {
+        text-transform: uppercase;
+        padding-left: 0px;
+    }
+    
+    .myforms label {
+        display: block;
+    }
+    
+    .forms input {
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .forms button {
+        background-color: black;
+        color: blue;
+        padding: 10px;
+        border: solid;
+    }
+    
+    .block {
+        float: left;
+        width: 33.3%;
+        padding: 10px;
+        border: 2px black dotted;
+        background-color: blue;
+        color: black;
+        box-sizing: border-box;
+    }
+    
+    .block1 {
+        float: left;
+        width: 70%;
+        border: 2px rebeccapurple solid;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: sienna;
+    }
+    
+    .block2 {
+        float: right;
+        width: 30%;
+        border: 3px red solid;
+        padding: 5px;
+        box-sizing: border-box;
+        background-color: sienna;
+    }
+    
+    .p4 {
+        border: 3px brown dashed;
+        width: 800px;
+        height: 500px;
+        margin-top: 20px;
+        position: relative;
+        background-image: url(./football.jpeg);
+        background-repeat: no-repeat;
+        background-position: 200px 300px;
+    }
+    
+    .p4 h3 {
+        position: absolute;
+        top: 300px;
+        right: 100px;
+    }
+    
+    .p4 h4 {
+        position: absolute;
+        bottom: 40px;
+        right: 200px;
+    }
+    
+    .mylists li:last-child {
+        background-image: url(./football.jpeg);
+    }
+    
+    .mylists li:nth-child(7) {
+        background-color: darkblue;
+    }
+    
+    .mylists li:nth-child(even) {
+        background-color: pink;
+    }

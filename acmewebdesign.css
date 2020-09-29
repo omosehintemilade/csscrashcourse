@@ -1,0 +1,226 @@
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            line-height: 1.5em;
+            padding: 0px;
+            margin: 0px;
+            background-color: lightgrey;
+        }
+        /* global */
+        
+        .container {
+            width: 100%;
+            overflow: hidden;
+            margin: auto;
+        }
+        
+        .button {
+            height: 38px;
+            background-color: orange;
+            border: none;
+            padding-right: 20px;
+            padding-left: 20px;
+            color: white;
+        }
+        
+        .dark {
+            background-color: #4d4d49;
+            color: white;
+            padding: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+        /* head*/
+        
+        .header {
+            background-color: #4d4d49;
+            color: white;
+            padding-top: 30px;
+            min-height: 30px;
+            border-bottom: orange 3px solid;
+            padding-left: 10px;
+            padding-bottom: 30px;
+            overflow: hidden;
+        }
+        
+        .header a {
+            color: white;
+            text-decoration-line: none;
+            text-transform: uppercase;
+            font-size: medium;
+        }
+        
+        .header ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .header li {
+            display: inline;
+        }
+        
+        .header h1 {
+            float: left;
+        }
+        
+        .header nav {
+            float: right;
+            padding-top: 30px;
+            padding-right: 5px;
+            word-spacing: 5px;
+            overflow: hidden;
+        }
+        
+        .highlight {
+            color: orange;
+        }
+        
+        .current {
+            color: orange;
+        }
+        
+        .header a:hover {
+            color: green;
+            font-weight: bold;
+        }
+        /* showcase */
+        
+        .section {
+            /* min-height: 300px; */
+            background-image: url(./football.jpeg);
+            background-position: center left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 0px;
+            text-align: center;
+            color: white;
+        }
+        /* how to do the hover effect on images */
+        /*  .section:hover  */
+        
+        .football.jpg:hover {
+            background-position: center;
+            background-size: 20%;
+        }
+        
+        .section h1 {
+            font-size: 50px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+            line-height: 1.5em;
+        }
+        
+        .section p {
+            font-size: 20px;
+        }
+        
+        .newsletter {
+            background-color: #4d4d49;
+            padding: 0px;
+            color: whitesmoke;
+        }
+        
+        .newsletter h1 {
+            float: left;
+            padding: 10px;
+        }
+        
+        .newsletter form {
+            float: right;
+            padding-top: 20px;
+        }
+        
+        .newsletter input {
+            padding: 4px;
+            height: 25px;
+            width: 250px;
+        }
+        /* paragraphs */
+        
+        .section2 {
+            margin-top: 20px;
+        }
+        
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .box img {
+            width: 90px;
+        }
+        /* aside */
+        
+        .sidebar {
+            float: right;
+            width: 30%;
+            margin-top: 10px;
+        }
+        /* article */
+        
+        .firstarticle {
+            float: left;
+            width: 65%;
+            margin-left: 30px;
+            margin-right: 5px;
+        }
+        /* services */
+        
+        .services li {
+            border: 1px dotted black;
+            padding: 20px;
+            list-style: none;
+            background-color: lightgray;
+            margin-bottom: 20px;
+        }
+        
+        .quote input,
+        textarea {
+            width: 90%;
+            padding: 5px;
+        }
+        
+        .firstarticle h1 {
+            margin-left: 35px;
+        }
+        
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: white;
+            background-color: orangered;
+            text-align: center;
+        }
+        /* media queries */
+        
+        @media(max-width:768px) {
+            .header {
+                padding-right: 50px;
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            .header nav {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            .section h1 {
+                margin-top: 50px;
+                float: none;
+            }
+            .section p {
+                font-size: larger;
+            }
+            .newsletter email {
+                width: 100%;
+                text-align: center;
+                padding-right: 20px;
+            }
+            .newsletter button {
+                display: block;
+            }
+        }
